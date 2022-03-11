@@ -1,0 +1,94 @@
+ul{
+	margin-left: 40%;
+}
+li{
+	display: inline;
+	list-style-type: none;
+	margin-right: 20%;
+	
+}
+.header{
+	margin-right: 50%;
+}
+.header a{
+	text-decoration: none;
+	color: #333333;
+}
+.list2{
+	position:absolute;
+	left: 48%;
+}
+#google_translator{
+	
+	position:absolute;
+	top: 0%;
+	right: 5%;
+	
+	
+}
+.goog-logo-link {
+    display:none !important;
+} 
+    
+.goog-te-gadget {
+    color: transparent !important;
+}
+
+.goog-te-banner-frame.skiptranslate {
+display: none !important;
+} 
+
+.image1{
+	position: relative;
+}
+.block{
+	position:absolute;
+	top: 30%;
+	left:5%;
+}
+.block h1,h4{
+	text-transform: capitalize;
+	color: #ffffff;
+}
+.block p{
+	color: #ffffff;
+}
+@media screen and (max-width: 840px)
+{
+	
+}
+.block1{
+		margin-left:30%;
+		margin-top: 5%;
+		position:relative;
+		overflow:hidden;
+		display: block;
+}
+.image2{
+		transition: transform .5s ;
+
+}
+.image2:hover{
+	transform: scale(1.2);
+	
+}
+.img1,.img2{
+	margin-right: 50px;
+}
+.contain{
+	margin-left:4%;
+	margin-top: 2%;
+	
+}
+.contain h1{
+	display: inline;
+}
+.topic2,.topic3{
+	margin-left: 16.5%;
+}
+.paragraph1{
+	background-color: #cccccc;
+	margin-left: 30%;
+	margin-right: 23.7%;
+	
+}
