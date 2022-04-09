@@ -1,0 +1,27 @@
+
+body{
+    background-color: rgb(72, 218, 255);
+}
+label{
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+.fm{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 10%;
+    padding: 2%;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: azure;
+}
+.sub{
+    width: 100%;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    height: 50px;
+}
