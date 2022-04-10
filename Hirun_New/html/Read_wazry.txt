@@ -1,0 +1,48 @@
+						>>>>>>for plan_your_trip.php>>>>>>
+
+
+>>>first file you should run
+
+---DBconnection.php---
+
+
+
+>>>second file you should run
+
+---CreateTable.php---
+
+
+>>>third file you should run
+
+---CreateTable2.php--
+
+>>>forth file you should run
+
+--CreateHotelTable.php--
+
+>>>fifth file you should run
+
+---UserDataTable.php---
+
+>>>six file you should run
+
+---addData.php---
+
+>>>seven file you should run
+
+---addHoteldata.php---
+
+>>>eight file you should run
+
+--plan_your_trip.php---
+
+>>>nine file you should run
+
+--sendData.php---
+
+>>>ten file you should run
+
+--RetriveData.php--
+>>>eleve file you should run 
+
+---retriveAll.php---

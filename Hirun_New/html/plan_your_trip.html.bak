@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+			<meta name = "viewport" content = "width = device-width,initial-scale = 1.0">
+			<link rel = "stylesheet" type = "text/css" href = "../my css/plan_your_trip.css">
+	</head>
+	<body>
+			<div class = "header-body">
+			<div class = "header">
+					<ul>
+						<li class = "list1"><a href = "Things_to_Do.html">Things to Do</a></li>
+						<li class = "list2"><a href = "#">Plan Your Trip</a></li>
+						
+					</ul>
+					<!--google translator-->
+					<div id = "google_translator"></div>
+					<script>
+							function googleTranslateElementInit(){
+								new google.translate.TranslateElement({pageLanguage: 'en'},"google_translator");
+							}
+					</script>
+					<script type = "text/javascript" src = "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+			</div>
+		</div>
+			
+
+			<img src = "../images/image_1.jpg" alt = "image">
+			<script src = "../my js/Plan your trip.js"></script>
+			<div>
+					<form action = "" method = "" name = "myform" onsubmit = "return myFunction()">
+						<div>
+						<lable>UserName:</lable>
+						<input type = "text" name = "username" required >
+						</div>
+						
+						<div>
+						<lable>Origin:</lable>
+						<select id = "start" onchange = "calcRoute()">
+							<option value = "Nittambuwa">Nittambuwa</option>
+							<option value = "Colombo">Colombo</option>
+						</select>
+						</div>
+						
+						<div>
+						<lable>Destination:</lable>
+						<select id = "end" onchange = "calcRoute()">
+							<option value = "Nittambuwa">Nittambuwa</option>
+							<option value = "Colombo">Colombo</option>
+						</select>
+						
+						</div>
+						
+						<div>
+						<lable>Mode of Travel:</lable>
+						<select name = "vehicle">
+								<option value = "driving">Driving</option>
+								<option value = "foot" selected = "selected">Foot</option>
+								<option value = "bicycle">Bicycle</option>
+								<option value = "transit">Transit</option>
+						</select>
+						</div>
+							<input type = "submit" value = "Submit">
+					</form>
+						
+								<div id = "container">
+									<div class = "block"></div>
+										<div class = "box">
+											<div class = "close-btn" onclick = "closeFunction()">&times;</div>
+												<h1>Title</h1>
+												<p>
+													Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+													Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+													when an unknown printer took a galley of type and scrambled it to make a type 
+													specimen book. It has survived not only five centuries, but also the leap into 
+													electronic typesetting, remaining essentially unchanged. It was popularised in 
+													the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+													and more recently with desktop publishing software like Aldus PageMaker including 
+													versions of Lorem Ipsum.	
+												</p>
+									  </div>
+							</div>
+							<div class = "myMap">
+							<div id="googleMap" style="width:100%;height:400px;"></div>
+
+							<script>
+										function myMap() {
+										var mapProp= {
+										  center:new google.maps.LatLng(7.8731,80.7718),
+										  zoom:7.5,
+										};
+										var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+											
+											
+										
+										}
+										
+										
+							</script>
+
+
+										<script src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAmbx6ANRF1NwvF52VtKht_5euoIzscojU&callback=myMap"></script>
+							</div>
+							
+						
+					
+					
+			</div>
+			
+			
+			
+	</body>
+</html>

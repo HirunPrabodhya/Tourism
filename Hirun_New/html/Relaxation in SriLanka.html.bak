@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang = "en">
+<!--link the css file-->
+		<head>
+				<link rel = "stylesheet" type = "text/css" href = "../my css/Relaxation in SriLanka.css">
+		</head>
+		<body>
+			<!--navigation bar(header topics)-->
+				<div class = "header-body">
+					<div class = "header">
+					<ul>
+						<li class = "list1"><a href = "Things_to_Do.html">Things to Do</a></li>
+						<li class = "list2"><a href = "plan_your_trip.php">Plan Your Trip</a></li>
+						
+					</ul>
+					<!--google translator in side the navigation bar-->
+					<div id = "google_translator"></div>
+					<script>
+							function googleTranslateElementInit(){
+								new google.translate.TranslateElement({pageLanguage: 'en'},"google_translator");
+							}
+					</script>
+					<script type = "text/javascript" src = "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+			</div>
+		</div>
+				<!--background vedio-->
+				<div>
+						<video src = "../videos/1.mp4" muted loop autoplay></video>
+						<div class = "paragraph1">
+							<!--texts on the background video-->
+							<h2>things to do</h2>
+							<h1>Relaxation in SriLanka</h1>
+							<h3>From high-class spas with city views to dips in rugged ocean-side rockpools and meditative gardens to mountain retreats</h3>
+				</div>
+				</div>
+				<!--middel paragraph-->
+				<div class = "paragraph2">
+						
+						<h1>Be sure to schedule in some me-time during your trip to SriLanka</h1>
+						<p>
+							This laid-back tour takes you to some of Sri Lanka's most exceptional hotels without the need for rushing, 
+							while also allowing you to see a wealth of the country's scenery and culture. Sri Lanka is so beautiful 
+							inland that it's worth taking your time to explore and experience what makes it so unique. If you can spare 
+							extra time, we think this holiday could also combine well with The Maldives, do call us to discuss.
+						</p>
+				</div>
+				<!--Top Recommendation block-->
+				<h1>Top Recommendations</h1>
+				<div class = "container">
+						<!--hotSpring block-->
+						<div class = "box">
+							<div class = "imgbox">
+								<img src = "../images/hotSpring.jpg" class = "img1" width = "300" height = "300">
+								<p>HotSpring</p>
+							</div>
+						</div>
+						<!--hortan place block-->
+						<div class = "box">
+								<div class = "imgbox">
+								<img src = "../images/hortan.jpg" class = "img1" width = "300" height = "300">
+								<p>Hortan Place</p>
+							</div>
+						</div>
+						<!--NuwaraEliya-->
+						<div class = "box">
+							<div class = "imgbox">
+								<img src = "../images/nuwaraElliya.jpg" class = "img1" width = "300" height = "300">
+								<p>NuwaraEliya</p>
+							</div>
+						</div>
+						
+				</div>
+				<!--beach block-->
+				<h1>Beaches</h1>
+				
+				<div class = "container2">
+							<!--Nilavali block-->
+							<a href = "https://nilaveli.tangerinehotels.com/">
+								<div class = "contain2">
+										<div class = "box">
+											<div class = "imgbox">
+												<img src = "../images/nilavali.jpg" class = "img1" width = "300" height = "300">
+												<div class = "overlay">
+														<div class = "text">Nilavali</div>
+												</div>
+											</div>
+										</div>
+								</div>
+							</a>	
+								<!--Kalkudah block-->
+								<a href = "https://www.lovesrilanka.org/kalkudah-beach/">
+								<div class = "contain2">
+											<div class = "box">
+													<div class = "imgbox">
+														<img src = "../images/kalkudah.webp" class = "img1" width = "300" height = "300">
+														<div class = "overlay">
+																<div class = "text">Kalkudah</div>
+														</div>
+													</div>
+											</div>
+								</div>	
+								</a>
+								<!--Arumgambe block-->
+								<a href = "https://www.tripadvisor.com/Attractions-g297649-Activities-Aurangabad_Aurangabad_District_Maharashtra.html">
+									<div class = "contain2">
+										<div class = "box">
+											<div class = "imgbox">
+												<img src = "../images/arungam Bay.jpg" class = "img1" width = "300" height = "300">
+												<div class = "overlay">
+														<div class = "text">Arumgambe</div>
+												</div>
+											</div>
+										</div>
+									</div>	
+								</a>
+				</div>
+				<!--hotels block-->
+				<h1>Hotels</h1>
+				<div class = "container3">
+					<!--first hotel-->
+					<div class = "box1">
+					<a href = "https://www.villavictoriasrilanka.com/"><img src = "../images/hotel1.jpg" class = "img1" width = "300" height = "300"></a>
+					</div>
+					<!--second hotel-->
+					<div class = "box1">
+					
+						<a href = "https://www.aman.com/resorts/amangalla"><img src = "../images/hotel2.jpg" class = "img1" width = "300" height = "300"></a>
+					</div>
+					<!--third hotel-->
+					<div class = "box1">
+					
+					<a href = "https://www.tripadvisor.com/Hotel_Review-g612379-d1235422-Reviews-Horathapola_Estate-Marawila_North_Western_Province.html">
+					<img src = "../images/hotel3.jpg" class = "img1" width = "300" height = "300"></a>
+					</div>
+						
+				</div>
+				<!--footer-block-->
+				<div class = "footer">
+				<!--three social media icon-->
+						<a href = "https://www.facebook.com/"><img src = "../images/facebook.png" class = "icon1" width= "60"></a>
+						<a href = "https://web.whatsapp.com/"><img src = "../images/whatsapp.png" class = "icon2" width= "60"></a>
+						<a href = "https://twitter.com/?lang=en"><img  src = "../images/twitter.png"  class = "icon3" width= "60" height= "60"></a>
+				</div>
+		</body>
+</html>
