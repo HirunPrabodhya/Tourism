@@ -1,0 +1,184 @@
+/*add background image to the body*/
+body{
+	background-image:url("../images/attract_bg.webp");
+}
+/*content in navigation bar(header topics)*/
+ul{
+	margin-left: 40%;
+}
+
+li{
+	display: inline;
+	list-style-type: none;
+	margin-right: 20%;
+	
+}
+/*navigation bar(header topics)*/
+.header{
+	margin-right: 50%;
+}
+.header a{
+	text-decoration: none;
+	color:white;
+}
+.header a:hover{
+	color:red;
+}
+/*plan your trip in navigation bar(header topics)*/
+.list2{
+	position:absolute;
+	left: 48%;
+}
+/*google translator*/
+#google_translator{
+	
+	position:absolute;
+	top:30%;
+	right: 5%;
+	
+	
+}
+/*google translator*/
+.goog-logo-link {
+    display:none !important;
+} 
+ /*google translator*/   
+.goog-te-gadget {
+    color: transparent !important;
+}
+/*google translator*/
+.goog-te-banner-frame.skiptranslate {
+display: none !important;
+} 
+/*navigation bar(header topics)*/
+.header-body{
+	height:45px;
+	width:100%;
+	background-color:rgba(0, 0, 0,0.6);
+	position:fixed;
+	z-index:1;
+	
+}
+/*sigiriya image*/
+.image1{
+	position: relative;
+}
+/*content in sigiriya image*/
+.block{
+	position:absolute;
+	top: 10%;
+	left:5%;
+}
+/*content in sigiriya image*/
+.block h1,h2{
+	text-transform: capitalize;
+	color: #ffffff;
+}
+/*content in sigiriya image*/
+.block p{
+	color: #ffffff;
+}
+/*first three images block*/
+.block1{
+		margin-left:30%;
+		margin-top: 5%;
+		position:relative;
+		overflow:hidden;
+		display: block;
+}
+/*first three images  */
+.image2{
+		transition: transform .5s ;
+
+}
+/*first three images block*/
+.image2:hover{
+	transform: scale(1.2);
+	
+}
+/*1st mage and 2nd image of first three images block*/
+.img1,.img2{
+	margin-right: 50px;
+}
+/*topic of above three images*/
+.contain{
+	margin-left:4%;
+	margin-top: 2%;
+	
+}
+/*topic of above three images*/
+.contain h1{
+	display: inline;
+}
+/*topic of above three images*/
+.topic2,.topic3{
+	margin-left: 10.5%;
+}
+/*topic of above three images*/
+.topic3{
+	margin-left: 12.5%;
+}
+/*paragraph*/
+.paragraph1{
+	background-color: #cccccc;
+	margin-left: 30%;
+	margin-right: 23.7%;
+	
+}
+/*festival contain*/
+.festival{
+	margin-left: 20%;
+}
+/*image of festival*/
+.image3{
+	margin-right: 3%;
+	margin-left: 1%;
+	
+}
+/*image of festival*/
+.image4,.image3{
+		transition: transform .5s ;
+}
+/*image of festival*/
+.image4:hover,.image3:hover{
+	transform: scale(1.2);
+	
+}
+/*content of festival*/
+.block2{
+	margin-left: 5.5%;
+}
+/*content of festival*/
+.block2 h2{
+	display: inline;
+	
+}
+/*vedioes*/
+.vedio{
+	margin-left: 20%;
+}
+/*vedioes*/
+iframe{
+	margin-left:20px;
+}
+/*footer*/
+.footer{
+	
+	width: 100%;
+	height: 200px;
+	background-color:#000000;
+}
+/*icons in footer block*/
+.icon1{
+	
+		margin-top:1%;
+	margin-left:35%;
+}
+.icon2{
+	margin-top:1%;
+	margin-left:2%;
+}
+.icon3{
+	margin-top:1%;
+	margin-left:2%;
+}

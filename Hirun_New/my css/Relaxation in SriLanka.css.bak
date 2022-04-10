@@ -1,0 +1,239 @@
+/*add background image to the body*/
+body{
+	background-image:url("../images/relax_bg.jpg");
+	background-repeat: no-repeat;
+	background-size:100% 800%; ;
+}
+/*content in navigation bar(header topics)*/
+ul{
+	margin-left: 40%;
+}
+li{
+	display: inline;
+	list-style-type: none;
+	margin-right: 20%;
+	
+}
+/*navigation bar(header topics)*/
+.header-body{
+	height:45px;
+	width:100%;
+	background-color:rgba(0, 0, 0,0.6);
+	position:fixed;
+	z-index:1;
+	
+}
+/*navigation bar(header topics)*/
+.header{
+	margin-right: 50%;
+}
+.header a{
+	text-decoration: none;
+	color: white;
+	
+}
+.header a:hover{
+	color:red;
+}
+/*plan your trip in navigation bar(header topics)*/
+.list2{
+	position:absolute;
+	left: 48%;
+}
+/*google translator*/
+#google_translator{
+	
+	position:absolute;
+	top: 0%;
+	right: 5%;
+	
+	
+}
+/*google translator*/
+#google_translator{
+	
+	position:absolute;
+	top:30%;
+	right: 5%;
+	
+	
+}
+/*google translator*/
+.goog-logo-link {
+    display:none !important;
+} 
+  /*google translator*/  
+.goog-te-gadget {
+    color: transparent !important;
+}
+/*google translator*/
+.goog-te-banner-frame.skiptranslate {
+display: none !important;
+} 
+				/*background vedio*/
+video{
+		 width:100%;
+		 position:relative;
+		
+}
+/*texts on the background video*/
+.paragraph1{
+	position: absolute;
+	top: 10%;
+	left:10%;
+}
+/*texts on the background video*/
+.paragraph1 h1,h2,h3{
+	color:#ffffff;
+}
+/*texts on the background video*/
+.paragraph1 h2{
+	text-transform:capitalize;
+}
+/*middel paragraph*/
+.paragraph2{
+	
+	margin:3% 20% 3% 30%;
+	text-align:justify;
+	line-height:2em;
+	width:500px;
+}
+.contain{
+	width:30%;
+	position:relative;
+	
+}
+/*hotSpring block*/
+.container{
+	width:1000px;
+	
+	margin: 70px auto 0;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+/*hotSpring block*/
+.container .box{
+	position:relative;
+	width: 300px;
+	height: 300px;
+	background:#4DED30;
+	margin: 10px;
+	box-sizing:border-box;	
+	display:inline-block;
+}
+/*hotSpring block*/
+.container .box .imgBox{
+	position:relative;
+}
+/*hotSpring block*/
+.box:hover .img1{
+	opacity:0.3;
+	transition: .5s ease;
+	cursor:pointer;
+}
+/*hotSpring block*/
+.box p{
+
+	position:absolute;
+	top:50%;
+	left:30%;
+	opacity:0;
+	
+}
+/*hotSpring block*/
+.box:hover p{
+	opacity: 1;
+	transition: .1s ease;
+}
+/*hotSpring block*/
+.container2{
+	width:1000px;
+	
+	margin: 70px auto 0;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+/*Nilavali block*/
+.contain2 .box{
+	position:relative;
+	width: 300px;
+	height: 300px;
+
+	margin: 10px;
+	box-sizing:border-box;	
+	display:inline-block;
+}
+/*Nilavali , Kalkudah , Arumgambe block*/
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+
+}
+/*Nilavali , Kalkudah , Arumgambe block*/
+.contain2:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+/*Nilavali , Kalkudah , Arumgambe block*/
+.text{
+	position:absolute;
+	top:50%;
+	left: 35%;
+	transform:translate(-50%,50%);
+	text-align: center;
+}
+
+
+
+
+.box1{
+	width:300px;
+	height:300px;
+	background-color: black;
+	display:inline-block;
+	transition:1s;
+	margin-left:2%;
+}
+.container3{
+	width:1000px;
+	
+	margin: 70px auto 0;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+.box1:hover{
+	transform:scale(1.3);
+
+}
+.footer{
+	width:100%;
+	height:100px;
+	background-color:black;
+	margin-left:0;
+	margin-top:5%;
+}
+
+.icon1{
+	
+		margin-top:1%;
+	margin-left:35%;
+}
+.icon2{
+	margin-top:1%;
+	margin-left:2%;
+}
+.icon3{
+	margin-top:1%;
+	margin-left:2%;
+}

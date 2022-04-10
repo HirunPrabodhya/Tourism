@@ -1,0 +1,136 @@
+/*add background image to the body*/
+body{
+	background-image:url("../images/culture_bg.jpg");
+	background-repeat:no-repeat;
+	background-size: 100% 4500px;
+}
+/*content in navigation bar(header topics)*/
+ul{
+	margin-left: 40%;
+}
+li{
+	display: inline;
+	list-style-type: none;
+	margin-right: 20%;
+	
+}
+/*navigation bar(header topics)*/
+.header{
+	margin-right: 50%;
+}
+/*navigation bar(header topics)*/
+.header a{
+	text-decoration: none;
+	color:white;
+}
+/*navigation bar(header topics)*/
+.header a:hover{
+	
+	color:red;
+}
+/*plan your trip in navigation bar(header topics)*/
+.list2{
+	position:absolute;
+	left: 48%;
+	
+}
+/*google translator*/
+#google_translator{
+	
+	position:absolute;
+	top:30%;
+	right: 5%;
+	
+	
+}
+/*google translator*/
+.goog-logo-link {
+    display:none !important;
+} 
+ /*google translator*/   
+.goog-te-gadget {
+    color: transparent !important;
+}
+/*google translator*/
+.goog-te-banner-frame.skiptranslate {
+display: none !important;
+} 
+/*navigation bar(header topics)*/
+.header-body{
+	height:45px;
+	width:100%;
+	background-color:rgba(0, 0, 0,0.6);
+	position:fixed;
+	z-index:1;
+	
+}
+
+/* first image */
+.block1{
+	position:relative;
+}
+/*contents in the first image*/
+.inner-block{
+	position:absolute;
+	top:50%;
+	left:5%;
+}
+/*contents in the first image*/
+.inner-block h1,h2{
+	text-transform: capitalize;
+	color: #ffffff;
+}
+/*contents in the first image*/
+.inner-block p{
+	color: #ffffff;
+	font-size: 20px;
+}
+/*Cultural Life block, History of SriLanka,Festival of SriLanka ,SriLankan Life in the Home, Living in SriLanka Today blocks images*/
+.image{
+	float:left;
+	border-radius:10px;
+}
+/*Cultural Life block*/
+.block2{
+	margin-top:2px;
+}
+.inner-block2{
+	margin-left:41.5%;
+}
+.inner-block2 p{
+	text-align:justify;
+}
+
+.block3{
+	margin-top:5%;
+}
+.image1{
+	float:left;
+	border-radius:10px;
+}
+.inner-block3{
+	margin-left:41.5%;
+}
+.video{
+	margin-top:10%;
+	margin-left:2%;
+}
+.footer{
+	
+	width: 100%;
+	height: 200px;
+	background-color:#000000;
+}
+.icon1{
+	
+		margin-top:1%;
+	margin-left:35%;
+}
+.icon2{
+	margin-top:1%;
+	margin-left:2%;
+}
+.icon3{
+	margin-top:1%;
+	margin-left:2%;
+}

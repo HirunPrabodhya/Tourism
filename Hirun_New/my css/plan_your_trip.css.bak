@@ -1,0 +1,294 @@
+/*add background image to the body*/
+body{
+	background-color: #84e4f7;
+}
+
+ul{
+	margin-left: 40%;
+}
+li{
+	display: inline;
+	list-style-type: none;
+	margin-right: 20%;
+	
+}
+/*style the navigation body*/
+.header-body{
+	height:45px;
+	width:100%;
+	background-color:rgba(0, 0, 0,0.6);
+	position:fixed;
+	z-index:1;
+	
+}
+/*style the navigation body*/
+.header{
+	margin-right: 50%;
+}
+.header a{
+	text-decoration: none;
+	color: white;
+}
+.header a:hover{
+	text-decoration: underline;
+	text-decoration-thickness:3px;
+	text-decoration-color:red;
+}
+/*plan your trip tab in navigation bar*/
+.list2{
+	position:absolute;
+	left: 48%;
+}
+/*google translator style*/
+#google_translator{
+	
+	position:absolute;
+	top: 0%;
+	right: 5%;
+	
+	
+}
+.goog-logo-link {
+    display:none !important;
+} 
+    
+.goog-te-gadget {
+    color: transparent !important;
+}
+
+.goog-te-banner-frame.skiptranslate {
+display: none !important;
+}
+/*images block in "before you go topic" */
+.image-block{
+	margin-left:10%;
+	position:relative;
+} 
+/*images in "before you go topic" */
+.image1{
+	margin-left:3.0%;
+	width:11.5%;
+}
+.image-block a{
+	margin-left:5%;
+	padding-left:1%;
+	padding-right:1%;
+	
+}
+.image-block a:hover{
+	color:#ffffff;
+	cursor:pointer;
+}
+/*2nd image in "before you go topic" */
+.image-block .topic2{
+	margin-left:8%;
+}
+/*3rd image in "before you go topic" */
+.image-block .topic3{
+	margin-left:8%;
+	
+}
+/*1st text backgound in "before you go topic" */
+.image-text-background{
+	position:absolute;
+	background-color:#000000;
+	width:11.5%;
+	height:13%;
+	top:86%;
+	left:3%;
+	z-index:-1;
+	opacity:0.4;
+}
+/*2nd text backgound in "before you go topic" */
+.image-text-background2{
+	position:absolute;
+	background-color:#000000;
+	width:11.5%;
+	height:13%;
+	top:86%;
+	left:17.74%;
+	z-index:-1;
+	opacity:0.4;
+}
+/*3rd text backgound in "before you go topic" */
+.image-text-background3{
+	position:absolute;
+	position:absolute;
+	background-color:#000000;
+	width:11.43%;
+	height:13%;
+	top:86%;
+	left:32.5%;
+	z-index:-1;
+	opacity:0.4;
+}
+
+/*middle paragraph*/
+.paragraph{
+	margin-left:30%;
+}
+.paragraph p{
+	margin-right:20%;
+	line-height:1.5em;
+	align:justify;
+	letter-spacing:1px;
+}
+/*6 blocks(Wifi Connection,Currency,Credit Cards,Weather,Visa Information,Custom & Manners)*/
+.table img{
+	float:left;
+	margin-right:2%;
+}
+.table tr{
+	background-color:green;
+}
+
+.accomadate img{
+	
+	border:1px solid black;
+	margin-left:5%;
+}
+
+/*clickable buton to show hotel details*/
+#btn1,#btn2,#btn3{
+	margin-left:12.5%;
+}
+#btn2{
+	margin-left:22.9%;
+}
+#btn3{
+	margin-left: 20.5%;
+}
+/*hotel details block*/
+.price .detail_1,.detail_2,.detail_3{
+	height:190px;
+	width:13%;
+	background-color:lightblue;
+	display:inline-block;
+	margin-left:8%;
+	margin-top:1.5%;
+	position:relative;
+
+}
+/*hotel details block*/
+.price{
+	background-image:url("../images/background.jpg");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+/*hotel details 1st block*/
+.price .detail_1{
+	top:-13px;
+}
+/*hotel details 2nd block,3rd block*/
+.price .detail_2,.detail_3{
+	margin-left:12%;
+	
+}
+/*hotel details 3rd block*/
+.price .detail_3{
+	margin-left:13%;
+	top:-1px;
+}
+/*hotel details 1st block*/
+.detail_1 input[type = "button"]{
+	width:100%;
+	;
+}
+/*hotel details 2nd block*/
+.detail_2 input[type = "button"]{
+	position:relative;
+	top:-8%;
+	width:100%;
+}
+/*hotel details 3rd block*/
+.detail_3 input[type = "button"]{
+	position:relative;
+	top:-8%;
+	left:-0.5%;
+	width:100%;
+}
+/*hotel details 1st block*/
+.detail_1 ul{
+	position:absolute;
+}
+	/*style of first form of cities*/
+.form1{
+	margin-top:0.5%;
+	
+}
+.form1 lable{
+	margin-right: 1.5%;
+	margin-left: 2%;
+}
+
+.form1 input[type = "submit"]{
+	width:10%;
+	margin-top:1.5%;
+	margin-left:1%;
+	margin-bottom:2%;
+}
+/*style cities dropdown block*/
+.select{
+	padding: 1px 10px;
+	width:7%;
+	text-align:center;
+	
+	
+}
+/*Style feeback text feild*/
+.form2 div{
+	margin-bottom:1.5%;
+}
+.form2 textarea{
+	vertical-align:top;
+	position:relative;
+}
+/*style popupmodel*/
+.block{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.5);
+	z-index:1;
+}
+/*style content block in popup modal*/
+.box{
+	background-image:url("../images/sriLanka2.png");
+	background-repeat:no-repeat;
+	background-size: 50% 50%;
+	position:relative;
+	width:100%;
+	height:700px;
+	z-index:+2;
+	border-radius:10px;
+	top:4%;
+	
+}
+/*style paragraph block in popup modal*/
+.box p{
+	position:absolute;
+	top:20%;
+	left: 20%;
+	width:50%;
+	color:white;
+	font-size: 30px;
+}
+/*style content block in popup modal*/
+#container{
+	display:none;
+	position:relative;
+	top:-700px;
+	
+	left:30%;
+}
+/*style close symbol in  popup model*/
+.close-btn{
+	position:relative;
+	font-size:30px;
+	color:#ffffff;
+	left:47%;
+	cursor:pointer;
+}
+
